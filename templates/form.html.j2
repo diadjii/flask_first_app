@@ -1,0 +1,13 @@
+{% extends 'index.html.j2'%}
+
+{% block title %}
+  <h2>Formulaire d'ajout d'Image</h2>
+{% endblock %}
+
+{% block content %}
+  <a href="/image/view">Voir Les Images</a><br><br>
+  <form class="" action="/image/create" method="post" enctype="multipart/form-data"><br>
+    <input type="file" name="file" value=""><br>
+    <button type="sumbit" name="button">Uploader</button>
+  </form>
+{% endblock %}

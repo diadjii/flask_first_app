@@ -1,0 +1,45 @@
+a{
+  text-decoration: none;
+  color:#858a;
+  border-color:#858a;
+  border:1px solid #858a;
+  padding:5px;
+  border-radius: 5px;
+}
+
+a:hover{
+  background-color:#858a;
+  color:#fff;
+
+}
+
+input[type=file]{
+  border: 1px solid #858a;
+  background-color: #000;
+  color:#fff;
+  margin:7px;
+}
+
+form{
+  border:1px solid #858a;
+  width:max-content;
+  border-radius:10px;
+}
+
+button{
+  border: 1px solid #858a;
+  background: #fff;
+  border-radius: 5px;
+  width:120px;
+  padding:7px;
+  margin:7px;
+}
+
+button:hover{
+  background-color: #000;
+  color:#fff;
+}
+
+li{
+  margin-top:20px;
+}
